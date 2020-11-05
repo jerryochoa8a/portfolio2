@@ -8,7 +8,7 @@ function Technology() {
         <div className={styles.box}>
             <div className={styles.title}>
                 <h1>Under The Hood</h1>
-                <p>These are some of the technologies that im familiar with.</p>
+                <p>These are some of the technologies that i'm familiar with:</p>
             </div>
             <div className={styles.pcGif}/>
         </div>

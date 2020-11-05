@@ -23,7 +23,7 @@ function Projects() {
                 </div>
                 <div className={styles.descBox}>
                     <p>Built With: Python | Django | JavaScript | HTML | CSS | Stripe Payment | Bcrypt Hash</p>
-                    <p>Developed a e-commerce clothing store. The clothing store uses Stripe Payment and has an easy to use checkout system. Logged in users will have their orders saved to their account. </p>
+                    <p>Developed an e-commerce clothing store. The clothing store uses Stripe Payment and has an easy to use checkout system. In this web app logged in users will have their orders saved to their account. </p>
                 </div>
                 <div className={styles.buttonBox}>
                     <div className={styles.box}>
@@ -58,7 +58,8 @@ function Projects() {
                 </div>
                 <div className={styles.descBox}>
                     <p>Built With: React | JavaScript | HTML | CSS | Node | Yelp API</p>
-                    <p>Designed to help the user make a decision on where to eat. This decision is made by random and picks from what’s around the given zip code.</p>
+                    <p>Designed to help the user make a decision on what restaurant to go to. 
+                        This API call is made by random and chooses from the surrounding zip code given to us by the user.</p>
                 </div>
                 <div className={styles.buttonBox}>
                     <div className={styles.box}>
@@ -93,7 +94,7 @@ function Projects() {
                 </div>
                 <div className={styles.descBox}>
                     <p>Built With: React | JavaScript | HTML | CSS | MongoDB | Express | Node </p>
-                    <p> Todo List web app developed with the MERN Stack. Developed with full CRUD operations to create, read, update, and delete tasks. </p>
+                    <p> The Todo List web app is developed with the MERN Stack. Developed with full CRUD operations to create, read, update, and delete tasks. </p>
                 </div>
                 <div className={styles.buttonBox}>
                     <div className={styles.box}>
