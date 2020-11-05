@@ -1,0 +1,201 @@
+* {
+    font-family: Garamond;
+  }
+.background{
+    background-color: #343434;
+    padding-bottom: 30px;
+    height: auto;
+}
+
+.title{
+    /* background-color: aqua; */
+    color: cyan;
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 40px;
+    width: 400px;
+    height: 100px;
+}
+
+.pcGif{
+    background-image: url('../images/pc.gif');
+    background-repeat: no-repeat;
+    margin-top: 65px;
+    /* padding-top: 300px; */
+    display: inline-block;
+    background-size: 100%;
+    height: 100px;
+    width: 100px;
+
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.techBox {
+    background-color: rgb(185, 185, 185);
+    border-radius: 25px;
+    border: 5px;
+    border-color: cyan;
+    border-style: solid;
+    margin: auto;
+    width: 800px;
+    /* height: auto; */
+
+}
+
+.reactJS{
+    /* background-color: red; */
+    background-image: url('../images/reactjs.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.aws {
+    background-image: url('../images/aws.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.bootstrap {
+    background-image: url('../images/bootstrap.png');
+    background-repeat: no-repeat;
+    /* background-color: aliceblue; */
+    border-color: cyan;
+    border: 5px;
+    border-radius: 20%;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.django {
+    background-image: url('../images/django.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.html5 {
+    background-image: url('../images/html5.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.mongodb {
+    background-image: url('../images/mongodb.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.mySql {
+    background-image: url('../images/mysql.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.python {
+    background-image: url('../images/python.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.sqlite {
+    background-image: url('../images/SQLite.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.node {
+    background-image: url('../images/node.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.mamp {
+    background-image: url('../images/mamp.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.postman {
+    background-image: url('../images/postman.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.gitBash {
+    background-image: url('../images/gitBash.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .background {
+        width: 900px;
+    }
+  }

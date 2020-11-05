@@ -1,0 +1,78 @@
+* {
+    font-family: Garamond;
+  }
+.background{
+    background-color: #343434;
+    height: 300px;
+    /* height: auto; */
+}
+
+
+
+.buttonBox {
+    padding-right: 8px;
+    padding-bottom: 10px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.buttonBox2 {
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.box {
+    background-color: cyan;
+    color: aliceblue;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    border: 5px;
+    border-color:  #343434;
+    border-style: solid;
+    margin-left: 40px;
+    width: 90px;
+    height: 90px;
+}
+
+
+.contactBox {
+    /* background-color: lime; */
+    margin: auto;
+    width: 600px;
+}
+
+h1 {
+    padding-top: 25px;
+    font-size: 50px;
+    margin: auto;
+    color: aliceblue;
+}
+
+.BTTC {
+    /* background-color: hotpink; */
+    padding-top: 40px;
+    margin: auto;
+    width: 100px;
+    height: 30px;
+}
+
+.BTT {
+    background-color: rgb(30, 196, 30);
+    color: aliceblue;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .background {
+        width: 900px;
+    }
+  }

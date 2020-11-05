@@ -1,0 +1,26 @@
+* {
+    font-family: Garamond;
+  }
+
+
+.background{
+    background-image: url('../images/coding3.jpg');
+    /* background-color: black; */
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300;
+    width: auto;
+}
+.openUp {
+    background-color: transparent;
+    height: 250px;
+    width: auto;
+
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .background {
+        width: 900px;
+    }
+  }

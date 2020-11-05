@@ -1,0 +1,26 @@
+.cool {
+    font-family: 'Raleway', sans-serif;;
+    text-decoration: none;
+    margin-right: 25px;
+    font-size: 23px;
+    color: aqua;
+  }
+.cool:hover {
+    color: rgb(56, 255, 189);
+    transition-duration: 0.5s;
+}
+
+.name {
+    color: aqua;
+    font-family: 'Raleway', sans-serif;;
+    font-size: 30px;
+}
+
+.name:hover {
+    color: rgb(56, 255, 189);
+    transition-duration: 0.5s;
+}
+
+.bcolor {
+    background-color:#343a40;
+}

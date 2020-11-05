@@ -1,0 +1,110 @@
+* {
+    font-family: Garamond;
+  }
+.background{
+    /* background-color: darkblue; */
+    height: 500px;
+    /* height: auto; */
+}
+
+.container{
+    /* background-color: coral; */
+    padding-top: 50px;
+}
+
+.descBox{
+    /* background-color: aqua; */
+    color: #343434;
+    margin-left: 30px;
+    float: left;
+    height: 450px;
+    width: 510px;
+    position: relative
+}
+.descBox h1{
+    color: #343434;
+    float: left;
+    font-size: 50px;
+}
+
+.descBox p{
+    float: left;
+    font-size: 18px;
+}
+
+.imageBox{
+    /* background-color: blueviolet; */
+    /* background-image: url('../images/profileDefault.jpg'); */
+    /* background-image: url('../images/jerry2.jpg'); */
+    background-image: url('../images/jerry1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 30px;
+    margin-top: 30px;
+    float: right;
+    height: 320px;
+    width: 300px;
+}
+
+.jobBox{
+    /* background-color: lawngreen; */
+    width: 510px;
+    height: 160px;
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0;
+}
+.bestBuy{
+    /* background-color: brown; */
+    background-image: url('../images/bestBuy.png');
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.rv{
+    background-image: url('../images/rv.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.scv{
+    background-image: url('../images/scv.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+.saugus{
+    background-image: url('../images/saugus.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+.geek{
+    background-image: url('../images/geek.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .background {
+        width: 900px;
+    }
+  }
