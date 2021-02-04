@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 
-import Pdf from '../images/Resume.pdf';
+import Pdf from '../images/CodingResume.pdf';
 
 import resLogo from '../images/res2.png';
 import emailLogo from '../images/email3.png';
@@ -63,7 +63,7 @@ function Contacts() {
 
             <div className={styles.BTTC}>
                 <a href="#top">
-                    <button type='button' className={styles.BTT}>Back To Top</button>
+                    <button className={styles.BTT}>Back To Top</button>
                 </a>
             </div>
 

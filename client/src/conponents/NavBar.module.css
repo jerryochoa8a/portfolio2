@@ -12,7 +12,7 @@
 
 .name {
     color: aqua;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 30px;
 }
 
@@ -24,3 +24,67 @@
 .bcolor {
     background-color:#343a40;
 }
+
+a {
+    cursor: pointer;
+}
+/*/////////////////////////////////////////////////////////////////////*/
+.name .span1 { /*First Name*/
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .name .span1:after {
+    content: 'erry';
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .name:hover .span1 {
+    padding-right: 52px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .name:hover .span1:after {
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    right: 0;
+  }
+
+
+  .name .span2 { /*Last name*/
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .name .span2:after {
+    content: 'choa';
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .name:hover .span2 {
+    padding-right: 65px;
+    padding-left: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  .name:hover .span2:after {
+    opacity: 1;
+    font-family: 'Raleway', sans-serif;
+    right: 0;
+  }

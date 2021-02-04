@@ -4,7 +4,9 @@
 .background{
     background-color: #343434;
     height: 300px;
-    /* height: auto; */
+    /* width: auto; */
+    overflow-y: auto;
+    box-sizing: content-box;
 }
 
 
@@ -40,11 +42,22 @@
     height: 90px;
 }
 
+.box:hover {
+    background-color: rgb(0, 238, 238);
+    box-shadow: 0px 5px 15px rgba(0, 217, 255, 0.3);
+}
+
+
+
 
 .contactBox {
     /* background-color: lime; */
+    padding-left: 300px;
+    padding-right: 300px;
     margin: auto;
-    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 600px; */
 }
 
 h1 {
@@ -56,24 +69,47 @@ h1 {
 
 .BTTC {
     /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
     padding-top: 40px;
     margin: auto;
-    width: 100px;
+    /* width: 100px; */
     height: 30px;
 }
 
 .BTT {
-    background-color: rgb(30, 196, 30);
-    color: aliceblue;
-    cursor: pointer;
+    color: black;
+    background-color: cyan;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border: 1px black solid;
+    border-radius: 12px;
     height: 40px;
-    /* width: 100px; */
     width: auto;
+    margin-right: 40px;
+    margin-top: 10px;
+    float: right;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.BTT:hover {
+    background-color: rgb(0, 238, 238);
+    box-shadow: 0px 5px 15px rgba(0, 217, 255, 0.3);
 }
 
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .background {
         width: 900px;
+        /* width: auto; */
+        /* width: 100%; */
     }
   }
+
+
+
+
+
+  

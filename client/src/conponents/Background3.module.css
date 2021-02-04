@@ -9,7 +9,9 @@
     background-attachment: fixed;
     background-size: cover;
     height: 400;
-    width: auto;
+    /* width: auto; */
+    overflow-y: auto;
+    box-sizing: content-box;
 }
 .openUp {
     background-color: transparent;
@@ -21,6 +23,7 @@
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .background {
-        width: 900px;
+        width: 0px;
+        height: 0px;
     }
   }

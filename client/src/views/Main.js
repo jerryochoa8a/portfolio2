@@ -1,17 +1,10 @@
 import React, { useEffect, useState, Image } from 'react';
-import axios from 'axios'
-import styles from '../views/Main.module.css';
+import { Router, Link } from '@reach/router';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import JerryInfo from '../conponents/JerryInfo';
-import AboutMe from '../conponents/AboutMe';
-import Technology from '../conponents/Technology';
-import Projects from '../conponents/Projects';
-import Contacts from '../conponents/Contacts';
-import Background1 from '../conponents/Background1';
-import Background2 from '../conponents/background2';
-import Background3 from '../conponents/Background3';
+import Home from './Home';
 import TopNavBar from '../conponents/TopNavBar';
+import AllProjects from './AllProjects';
 
 
 
@@ -20,27 +13,19 @@ export default () => {
 
     return (
         <div>
+            <>
+            {/* <meta name="viewport" content="width=500"></meta> */}
+            <meta name="viewport" content="width=device-width"></meta>
 
             <TopNavBar/>
 
-            {/* <h2>The Magic Ball</h2>
-           <hr/> */}
 
-            <JerryInfo />
+            <Router>
+                <Home path="/"/>
+                <AllProjects path="/AllProjects" />
+            </Router>
 
-            <AboutMe />
-
-            <Background1 />
-
-            <Technology />
-
-            <Background2 />
-
-            <Projects />
-
-            <Background3 />
-
-            <Contacts />
+            </>
 
         </div>
     )

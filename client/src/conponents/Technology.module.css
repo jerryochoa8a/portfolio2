@@ -5,6 +5,8 @@
     background-color: #343434;
     padding-bottom: 30px;
     height: auto;
+    overflow-y: auto;
+    box-sizing: content-box;
 }
 
 .title{
@@ -40,7 +42,8 @@
     border-color: cyan;
     border-style: solid;
     margin: auto;
-    width: 800px;
+    /* width: 800px; */
+    width: 70%;
     /* height: auto; */
 
 }
@@ -197,5 +200,6 @@
     /* For mobile phones: */
     .background {
         width: 900px;
+        /* width: 100%; */
     }
   }
