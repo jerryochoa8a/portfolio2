@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Projects.module.css';
 import { Router, Link } from '@reach/router';
 
@@ -8,8 +8,13 @@ import AOS from 'aos';
 AOS.init();
 
 
-
 function Projects() {
+
+    const [projectView, setProjectView] = useState('');
+    const [currentTab, setCurrentTab] = useState('');
+
+    //look at the tabs on the laptop
+
 
     return (
         <>
@@ -20,6 +25,12 @@ function Projects() {
                     <h1>Projects</h1>
                     <p>Take a look at some of my projects!</p>
                 </div>
+
+                {/* <div className={styles.projectButtonBox}>
+                    <button className={styles.projectButtons}>Python</button>
+                    <button className={styles.projectButtons}>MERN Stack</button>
+                    <button className={styles.projectButtons}>HTML Email</button>
+                </div> */}
 
                 <div data-aos="fade-left" data-aos-duration="40000" className={styles.projectBox}>
                     <div className={styles.leftBox}>

@@ -3,7 +3,7 @@
   }
 .background{
     /* background-color: darkblue; */
-    height: 510px;
+    height: 550px;
     /* height: auto; */
 }
 
@@ -60,8 +60,11 @@ h3 {
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 5px;
-    height: 420px;
+    height: 400px;
     width: 360px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    
 }
 
 .jobBox{
@@ -72,9 +75,10 @@ h3 {
     padding-top: 20px;
     bottom: 0;
 }
-.bestBuy{
+.funburger{
     /* background-color: brown; */
-    background-image: url('../images/bestBuy.png');
+    background-image: url('../images/FunBurger_BeerBar_black.png');
+    background-repeat: no-repeat;
     background-size: 100%;
     display: inline-block;
     margin-left: 20px;
@@ -121,7 +125,7 @@ h3 {
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:900px) {
     /* For mobile phones: */
     .background {
         width: 900px;

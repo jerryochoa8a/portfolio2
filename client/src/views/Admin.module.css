@@ -1,0 +1,33 @@
+.Body_Con{
+    margin-top: 5%;
+    background-color: green;
+    display: flex;
+    width: 100%;
+    height: 500px;    
+}
+
+.Control_Con{
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* height: 200px; */
+    height: 100%;
+}
+
+.Control_Con button{
+    background-color: transparent;
+    color: aquamarine;
+    border-color: transparent;
+    height: 30%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+
+.Form_Con{
+    background-color: red;
+    width: 70%;
+    /* height: 200px; */
+    height: 100%;
+}
+

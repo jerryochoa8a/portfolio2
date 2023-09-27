@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Home from './Home';
 import TopNavBar from '../conponents/TopNavBar';
 import AllProjects from './AllProjects';
+import Admin from './Admin';
 
 
 
@@ -22,6 +23,7 @@ export default () => {
 
             <Router>
                 <Home path="/"/>
+                <Admin path="/admin"/>
                 <AllProjects path="/AllProjects" />
             </Router>
 

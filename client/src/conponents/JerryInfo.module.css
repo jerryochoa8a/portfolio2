@@ -3,7 +3,8 @@
   }
 .background{
     background-color: #343434;
-    height: 600px;
+    /* height: 600px; */
+    height: 100vh;
     
 }
 
@@ -34,5 +35,8 @@
 @media only screen and (max-width:500px) {
     .background{
         width: 900px;
+        height: 250vh;
     }
+
+
 }

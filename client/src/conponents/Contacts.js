@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 
-import Pdf from '../images/CodingResume.pdf';
+import Pdf from '../images/Jerry Ochoa - Resume.pdf';
 
 import resLogo from '../images/res2.png';
 import emailLogo from '../images/email3.png';
