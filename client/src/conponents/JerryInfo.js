@@ -11,7 +11,7 @@ function JerryInfo() {
             </div>
 
             <div className={styles.titleBox}>
-                <h3>Full Stack Web Developer</h3>
+                <h3>Software Developer</h3>
             </div>
         </div>
 

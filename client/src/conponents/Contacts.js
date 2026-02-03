@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Contacts.module.css';
 
-import Pdf from '../images/Jerry Ochoa - Resume.pdf';
+import Pdf from '../images/JerryResume.pdf';
 
 import resLogo from '../images/res2.png';
 import emailLogo from '../images/email3.png';
@@ -26,7 +26,7 @@ function Contacts() {
 
                 
                     <div className={styles.box}>
-                        <a href="mailto:jerryochoa8a@aol.com"  onMouseOverCapture={showTxt} target="_blank" rel="noopener noreferrer">
+                        <a href="mailto:jerryochoa8a8a@gmail.com"  onMouseOverCapture={showTxt} target="_blank" rel="noopener noreferrer">
                             <img className={styles.buttonBox} src={emailLogo} />
                             {/* <p>Email</p> */}
                         </a>

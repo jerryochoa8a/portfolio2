@@ -15,19 +15,20 @@ function AboutMe() {
 
           <div>
             <div className={styles.pBox}>
-              <p>I am a highly motivated developer with a passion for
-              learning new technologies. Developing web applications to best help users is not only an
-              accomplishment a but also a great feeling knowing that my work will be used to benefit others.
-              I enjoy learning new technologies in order to solve problems and bring more value to the industry while working on building bigger ideas and solutions
-            </p>
+              <p>
+                Motivated Computer Science student with hands-on experience in full-stack development,
+                IT support, and teaching. Skilled in debugging applications, troubleshooting hardware,
+                and providing technical guidance. Experienced in both educational and professional settings,
+                with a passion for technology and continuous learning.
+              </p>
             </div>
 
             <div className={styles.jobBox}>
               <h3>I've worked for:</h3>
+              <div data-aos="fade-right" data-aos-duration="4000" className={styles.Castaic}></div>
               <div data-aos="fade-right" data-aos-duration="4000" className={styles.funburger}></div>
+              <div data-aos="fade-left" data-aos-duration="4000" className={styles.codeNinjas}></div>
               <div data-aos="fade-left" data-aos-duration="4000" className={styles.rv}></div>
-              <div data-aos="fade-right" data-aos-duration="4000" className={styles.scv}></div>
-              {/* <div data-aos="fade-left" data-aos-duration="4000" className={styles.saugus}></div> */}
               <div data-aos="fade-right" data-aos-duration="4000" className={styles.geek}></div>
             </div>
           </div>
