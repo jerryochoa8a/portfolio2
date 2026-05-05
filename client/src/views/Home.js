@@ -1,5 +1,5 @@
 import React, { useEffect, useState, Image } from 'react';
-import axios from 'axios'
+// import axios from 'axios'
 import styles from '../views/Main.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
